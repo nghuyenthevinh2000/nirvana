@@ -1,0 +1,23 @@
+{
+  "input_video": "capitalism-low-birthrate.mp4",
+  "output_video": "capitalism-low-birthrate-fx.mp4",
+  "hook": {
+    "lines": ["TƯ BẢN & TỶ LỆ SINH THẤP", "6 GIAI ĐOẠN"],
+    "start": 0.0,
+    "end": 5.0
+  },
+  "steps": [
+    { "label": "Bước 1: Lương đủ sống", "start": 5.3, "end": 16.6 },
+    { "label": "Bước 2: Tuổi thọ tăng", "start": 16.6, "end": 26.0 },
+    { "label": "Bước 3: Công nghệ & Lương", "start": 26.0, "end": 45.6 },
+    { "label": "Bước 4: Bán thời gian riêng", "start": 45.6, "end": 66.7 },
+    { "label": "Bước 5: Tháp dân số thu hẹp", "start": 66.7, "end": 71.8 },
+    { "label": "Bước 6: Hệ quả toàn cầu", "start": 71.8, "end": 91.4 }
+  ],
+  "cta": {
+    "title": "Hệ quả tất yếu",
+    "body": ["Ít sinh con & dân số già hóa"],
+    "start": 86.2,
+    "end": 91.4
+  }
+}
