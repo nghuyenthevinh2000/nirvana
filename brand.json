@@ -1,0 +1,126 @@
+{
+  "name": "nirvana",
+  "reference_story": "stories/the-second-arrow",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 18,
+    "preset": "medium",
+    "pix_fmt": "yuv420p",
+    "renderer": "playwright-canvas-2d"
+  },
+  "visual": {
+    "style": "2d-flat-vector",
+    "ink": "#231f20",
+    "outlineWidth": 5,
+    "backdrop": {
+      "colorArc": "warm-apricot -> soft-parchment -> golden-sunrise -> warm-apricot-dip",
+      "elements": [
+        "sky_gradient",
+        "sun",
+        "distant_hills_with_stupa",
+        "river_with_shimmer",
+        "foreground_riverbank_with_grass",
+        "banyan_canopy_and_vines",
+        "floating_glow_particles"
+      ],
+      "palette": {
+        "dawn": {
+          "skyTop": "#f7d9a8",
+          "skyBot": "#fff3dc",
+          "hill": "#c99c7c",
+          "riverTop": "#7ec4cf",
+          "riverBot": "#b5e2e8",
+          "bank": "#d9c3a3",
+          "canopy": "#4e7a4f",
+          "trunk": "#5c402c"
+        },
+        "mid": {
+          "skyTop": "#e8c5b0",
+          "skyBot": "#f6e3ce",
+          "hill": "#a88479",
+          "riverTop": "#7aa6b3",
+          "riverBot": "#a7c8d1",
+          "bank": "#c7b097",
+          "sun": "#ffe8a3"
+        },
+        "sunrise": {
+          "skyTop": "#f5a642",
+          "skyBot": "#ffe49e",
+          "hill": "#9c6b5e",
+          "riverTop": "#f0c065",
+          "riverBot": "#fae096",
+          "bank": "#cca378",
+          "canopy": "#4a7545",
+          "sun": "#ffd24c"
+        }
+      }
+    },
+    "characters": {
+      "skin": "#d89f72",
+      "ordinary": {
+        "robe": "#9e3232",
+        "sash": "#2f8a8a",
+        "hair": "#25262e"
+      },
+      "wise": {
+        "robe": "#c76b29",
+        "sash": "#e58a2d"
+      },
+      "buddha": {
+        "robe": "#e58a2d",
+        "sash": "#c96f1a",
+        "skin": "#e3b386",
+        "mat": "#7c766b"
+      }
+    },
+    "speechBubble": {
+      "bg": "#f7e6b7",
+      "alertBg": "#ffd6d6",
+      "border": "#231f20",
+      "borderWidth": 5,
+      "radius": 34,
+      "font": "700 38px Cap, sans-serif"
+    },
+    "thumbnailCards": {
+      "showInOpening": true,
+      "y": 620,
+      "width": 468,
+      "height": 148,
+      "radius": 28,
+      "borderWidth": 5,
+      "line1Font": "700 32px Cap, sans-serif",
+      "line2Font": "700 34px Cap, sans-serif",
+      "positive": { "x": 280, "bg": "#f7e6b7", "accent": "#b55612" },
+      "negative": { "x": 800, "bg": "#ffd6d6", "accent": "#b8252a" }
+    },
+    "framing": {
+      "firstScene": "Buddha on left (x=240, y=1235, scale=0.92) + two contrasting characters + two outcome thumbnailCards",
+      "lastScene": "Buddha on left (x=240, y=1235, scale=0.92, handUp=true) + calm resolution"
+    }
+  },
+  "subtitles": {
+    "fontFamily": "Cap",
+    "fontSource": "@fontsource/montserrat/files/montserrat-{vietnamese,latin}-700-normal.woff2",
+    "font": "700 54px Cap, sans-serif",
+    "y": 1485,
+    "defaultColor": "#ffffff",
+    "activeColor": "#ff9838",
+    "strokeColor": "#111111",
+    "strokeWidth": 14,
+    "grouping": {
+      "maxWords": 4,
+      "maxChars": 22,
+      "stopPunctuation": "[.,?!;:]$"
+    }
+  },
+  "audio": {
+    "provider": "elevenlabs",
+    "modelId": "eleven_v3",
+    "voiceId": "UsgbMVmY3U59ijwK5mdh",
+    "voiceName": "Trieu Duong",
+    "languageCode": "vi",
+    "outputFormat": "m4a"
+  }
+}
